@@ -174,8 +174,8 @@
     var instructions = {
       type: jsPsychHtmlButtonResponse,
       stimulus: "<p>In this experiment, you will be watching a video of a face making an expression,<br> then judging which of two other videos of facial expression beneath it are most similar to this first video." +
-        "<p><strong> What is a facial expression? </strong>Facial expressions are configurations of different small muscle movements in the face.<br> People often use them to convey feelings or information to others." +
-        "<p>In this experiment we are only interested in <u>the information the person is communicating</u>.<br>Please make your similarity judgments only based on the similarity of the information the person is communicating."+
+        "<p><strong> What is a facial expression? </strong>Facial expressions are configurations of different small muscle movements in the face.<br> People often use them to convey feelings or informational messages to others." +
+        "<p>In this experiment we are only interested in <u>the message the person is communicating</u>.<br>Please make your similarity judgments only based on the similarity of the message the person is communicating."+
           "<p>Click 'Continue' to begin the test.</p>",
         choices: ["Continue"],
       post_trial_gap: 2000
@@ -217,7 +217,7 @@
                 html += 'Your browser does not support the video tag.';
                 html += '</video>';
                 html += '</div>';
-                html += '<br>Which is more similar to the video on top based on <strong> the information the person is communicating</strong>?<strong>Press "f" for the video on the left, or "j" for the video on the right.';
+                html += '<br>Which is more similar to the video on top based on <strong> the message the person is communicating</strong>?<strong>Press "f" for the video on the left, or "j" for the video on the right.';
                 return html;
             },
             height: 400,
@@ -258,7 +258,7 @@
                 html += 'Your browser does not support the video tag.';
                 html += '</video>';
                 html += '</div>';
-                html += '<br>Which is more similar to the video on top based on <strong> the information the person is communicating</strong>? <br><strong>Press "f" for the video on the left. Press "j" for the video on the right.';
+                html += '<br>Which is more similar to the video on top based on <strong> the message the person is communicating</strong>? <br><strong>Press "f" for the video on the left. Press "j" for the video on the right.';
                 return html;
             },
             height: 400,
@@ -297,7 +297,7 @@
                 html += 'Your browser does not support the video tag.';
                 html += '</video>';
                 html += '</div>';
-                html += '<br>Which is more similar to the video on top based on <strong> the information the person is communicating</strong>? <br><strong>Press "f" for the video on the left. Press "j" for the video on the right.';
+                html += '<br>Which is more similar to the video on top based on <strong> the message the person is communicating</strong>? <br><strong>Press "f" for the video on the left. Press "j" for the video on the right.';
                 return html;
             },
             height: 400,
